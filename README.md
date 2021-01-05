@@ -1,0 +1,2 @@
+# Cassava_Leaf_Disease_Classification_Pseudo_Lab
+Cassava Leaf Disease Classification
