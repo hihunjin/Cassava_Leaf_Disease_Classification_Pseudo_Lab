@@ -8,4 +8,5 @@ jupyter
 timm==0.3.2
 albumentations
 torchcontrib
+adamp
 git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
