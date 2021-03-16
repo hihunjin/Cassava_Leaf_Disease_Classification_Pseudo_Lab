@@ -12,5 +12,20 @@
 * model10 : Reg nocv
 
 
-### model10 is refered to Reg2020. I didn't get the code
+### model10 is refered to Reg2020. I didn't get the code.
 
+## Result  (Public 13nd Private 184nd)
+
+|   submission   | Public LB | Rank | Private LB | Rank |
+| :------------: | :-------: | :--: | :--------: | :--: |
+| EfficientNetB4 |   0.905   |      |   0.896    |      |
+|   RegNetY_40   |   0.905   |      |   0.895    |      |
+|   VIT_16_384   |   0.902   |      |   0.894    |      |
+|  Distillation  |     -     |  -   |     -      |  -   |
+|     NFNet      |   0.899   |      |   0.894    |      |
+|     FixMatch   |   0.9005  |      |   0.8987   |      |
+|   Ensemble1    |   0.9048  |      |   0.8993   | 171  |
+|   Ensemble2    |   0.9082  |  13  |   0.8975   |      |
+
+* Ensemble1 = Avengers
+* Ensemble2 = Effx3 + Regx2 + Reg-Distill 
