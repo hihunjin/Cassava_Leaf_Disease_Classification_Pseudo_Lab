@@ -11,3 +11,6 @@
 * model9 : NFNet
 * model10 : Reg nocv
 
+
+### model10 is refered to Reg2020. I didn't get the code
+
