@@ -1,0 +1,118 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+0.001
+non swa
+epoch = 1 validation multi-class accuracy = 0.8521
+0.001
+non swa
+epoch = 2 validation multi-class accuracy = 0.8654
+0.001
+non swa
+epoch = 3 validation multi-class accuracy = 0.8656
+0.001
+non swa
+epoch = 4 validation multi-class accuracy = 0.8518
+swa
+epoch = 4 validation multi-class accuracy = 0.8518
+0.001
+non swa
+epoch = 5 validation multi-class accuracy = 0.8712
+swa
+epoch = 5 validation multi-class accuracy = 0.8579
+0.001
+non swa
+epoch = 6 validation multi-class accuracy = 0.8747
+swa
+epoch = 6 validation multi-class accuracy = 0.8764
+0.001
+non swa
+epoch = 7 validation multi-class accuracy = 0.8724
+swa
+epoch = 7 validation multi-class accuracy = 0.8731
+Training with 1 started
+17115 4279
+0.001
+non swa
+epoch = 1 validation multi-class accuracy = 0.8462
+0.001
+non swa
+epoch = 2 validation multi-class accuracy = 0.8486
+0.001
+non swa
+epoch = 3 validation multi-class accuracy = 0.8654
+0.001
+non swa
+epoch = 4 validation multi-class accuracy = 0.8521
+swa
+epoch = 4 validation multi-class accuracy = 0.8521
+0.001
+non swa
+epoch = 5 validation multi-class accuracy = 0.8638
+swa
+epoch = 5 validation multi-class accuracy = 0.8334
+0.001
+non swa
+epoch = 6 validation multi-class accuracy = 0.8740
+swa
+epoch = 6 validation multi-class accuracy = 0.8659
+0.001
+non swa
+epoch = 7 validation multi-class accuracy = 0.8701
+swa
+epoch = 7 validation multi-class accuracy = 0.8659
+Training with 2 started
+17115 4279
+0.001
+non swa
+epoch = 1 validation multi-class accuracy = 0.8605
+0.001
+non swa
+epoch = 2 validation multi-class accuracy = 0.8327
+0.001
+non swa
+epoch = 3 validation multi-class accuracy = 0.8640
+0.001
+non swa
+epoch = 4 validation multi-class accuracy = 0.8680
+swa
+epoch = 4 validation multi-class accuracy = 0.8680
+0.001
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_CusSwa2.py", line 935, in <module>
+    train_one_epoch(epoch, model, loss_tr, optimizer, train_loader, unlabeled_trainloader, device, scheduler=scheduler, swa_scheduler=swa_scheduler, schd_batch_update=False)
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_CusSwa2.py", line 725, in train_one_epoch
+    image_preds = model(inputs)   #output = model(input)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_CusSwa2.py", line 385, in forward
+    x = self.model(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet.py", line 391, in forward
+    x = self.forward_features(x)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet.py", line 384, in forward_features
+    x = self.blocks(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet_blocks.py", line 268, in forward
+    x = self.se(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet_blocks.py", line 119, in forward
+    x_se = self.conv_expand(x_se)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 419, in forward
+    return self._conv_forward(input, self.weight)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 416, in _conv_forward
+    self.padding, self.dilation, self.groups)
+KeyboardInterrupt

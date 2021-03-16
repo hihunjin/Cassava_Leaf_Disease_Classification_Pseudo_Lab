@@ -1,0 +1,88 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+0.001
+non swa
+epoch = 1 validation multi-class accuracy = 0.8399
+0.0009397114317029975
+non swa
+epoch = 2 validation multi-class accuracy = 0.8642
+0.0007750000000000001
+non swa
+epoch = 3 validation multi-class accuracy = 0.8645
+0.0006761485386504599
+non swa
+epoch = 4 validation multi-class accuracy = 0.8757
+swa
+epoch = 4 validation multi-class accuracy = 0.8757
+0.00043750000000000006
+non swa
+epoch = 5 validation multi-class accuracy = 0.8743
+swa
+epoch = 5 validation multi-class accuracy = 0.8588
+0.00019885146134954025
+non swa
+epoch = 6 validation multi-class accuracy = 0.8846
+swa
+epoch = 6 validation multi-class accuracy = 0.8638
+0.0001
+non swa
+epoch = 7 validation multi-class accuracy = 0.8836
+swa
+epoch = 7 validation multi-class accuracy = 0.8581
+Training with 1 started
+17115 4279
+0.001
+non swa
+epoch = 1 validation multi-class accuracy = 0.8371
+0.0009397114317029975
+non swa
+epoch = 2 validation multi-class accuracy = 0.8462
+0.0007750000000000001
+non swa
+epoch = 3 validation multi-class accuracy = 0.8661
+0.0006761485386504599
+non swa
+epoch = 4 validation multi-class accuracy = 0.8708
+swa
+epoch = 4 validation multi-class accuracy = 0.8708
+0.00043750000000000006
+non swa
+epoch = 5 validation multi-class accuracy = 0.8796
+swa
+epoch = 5 validation multi-class accuracy = 0.8380
+0.00019885146134954025
+non swa
+epoch = 6 validation multi-class accuracy = 0.8839
+swa
+epoch = 6 validation multi-class accuracy = 0.8217
+0.0001
+non swa
+epoch = 7 validation multi-class accuracy = 0.8881
+swa
+epoch = 7 validation multi-class accuracy = 0.8243
+Training with 2 started
+17115 4279
+0.001
+non swa
+epoch = 1 validation multi-class accuracy = 0.8616
+0.0009397114317029975
+non swa
+epoch = 2 validation multi-class accuracy = 0.8448
+0.0007750000000000001
+non swa
+epoch = 3 validation multi-class accuracy = 0.8649
+0.0006761485386504599
+non swa
+epoch = 4 validation multi-class accuracy = 0.8670
+swa
+epoch = 4 validation multi-class accuracy = 0.8670
+0.00043750000000000006
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_CusSwa3.py", line 935, in <module>
+    train_one_epoch(epoch, model, loss_tr, optimizer, train_loader, unlabeled_trainloader, device, scheduler=scheduler, swa_scheduler=swa_scheduler, schd_batch_update=False)
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_CusSwa3.py", line 722, in train_one_epoch
+    torch.cat((imgs, inputs_u_w, inputs_u_s)), 2*CFG['mu']+1).contiguous().to(device)
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_CusSwa3.py", line 659, in interleave
+    return x.reshape([-1, size] + s[1:]).transpose(0, 1).reshape([-1] + s[1:])
+KeyboardInterrupt

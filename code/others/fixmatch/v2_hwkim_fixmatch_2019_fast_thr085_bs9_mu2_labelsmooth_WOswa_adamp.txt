@@ -1,0 +1,67 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8715
+epoch = 2 validation multi-class accuracy = 0.8881
+epoch = 3 validation multi-class accuracy = 0.8853
+epoch = 4 validation multi-class accuracy = 0.8904
+epoch = 5 validation multi-class accuracy = 0.8946
+epoch = 6 validation multi-class accuracy = 0.8881
+epoch = 7 validation multi-class accuracy = 0.8862
+epoch = 8 validation multi-class accuracy = 0.8813
+epoch = 9 validation multi-class accuracy = 0.8874
+epoch = 10 validation multi-class accuracy = 0.8841
+epoch = 10 validation multi-class accuracy = 0.8841
+Training with 1 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8698
+epoch = 2 validation multi-class accuracy = 0.8848
+epoch = 3 validation multi-class accuracy = 0.8864
+epoch = 4 validation multi-class accuracy = 0.8902
+epoch = 5 validation multi-class accuracy = 0.8932
+epoch = 6 validation multi-class accuracy = 0.8782
+epoch = 7 validation multi-class accuracy = 0.8846
+epoch = 8 validation multi-class accuracy = 0.8855
+epoch = 9 validation multi-class accuracy = 0.8850
+epoch = 10 validation multi-class accuracy = 0.8843
+epoch = 10 validation multi-class accuracy = 0.8843
+Training with 2 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8722
+epoch = 2 validation multi-class accuracy = 0.8813
+epoch = 3 validation multi-class accuracy = 0.8808
+epoch = 4 validation multi-class accuracy = 0.8855
+epoch = 5 validation multi-class accuracy = 0.8862
+epoch = 6 validation multi-class accuracy = 0.8750
+epoch = 7 validation multi-class accuracy = 0.8832
+epoch = 8 validation multi-class accuracy = 0.8862
+epoch = 9 validation multi-class accuracy = 0.8846
+epoch = 10 validation multi-class accuracy = 0.8857
+epoch = 10 validation multi-class accuracy = 0.8857
+Training with 3 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8817
+epoch = 2 validation multi-class accuracy = 0.8909
+epoch = 3 validation multi-class accuracy = 0.8930
+epoch = 4 validation multi-class accuracy = 0.9011
+epoch = 5 validation multi-class accuracy = 0.9009
+epoch = 6 validation multi-class accuracy = 0.8853
+epoch = 7 validation multi-class accuracy = 0.8916
+epoch = 8 validation multi-class accuracy = 0.8883
+epoch = 9 validation multi-class accuracy = 0.8944
+epoch = 10 validation multi-class accuracy = 0.8965
+epoch = 10 validation multi-class accuracy = 0.8965
+Training with 4 started
+17116 4278
+epoch = 1 validation multi-class accuracy = 0.8799
+epoch = 2 validation multi-class accuracy = 0.8705
+epoch = 3 validation multi-class accuracy = 0.8908
+epoch = 4 validation multi-class accuracy = 0.8883
+epoch = 5 validation multi-class accuracy = 0.8913
+epoch = 6 validation multi-class accuracy = 0.8929
+epoch = 7 validation multi-class accuracy = 0.8899
+epoch = 8 validation multi-class accuracy = 0.8831
+epoch = 9 validation multi-class accuracy = 0.8871
+epoch = 10 validation multi-class accuracy = 0.8899
+epoch = 10 validation multi-class accuracy = 0.8899
+0.8880994671403197

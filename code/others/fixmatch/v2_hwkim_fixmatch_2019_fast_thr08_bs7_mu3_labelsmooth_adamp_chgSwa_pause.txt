@@ -1,0 +1,365 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8787
+epoch = 2 validation multi-class accuracy = 0.8761
+epoch = 3 validation multi-class accuracy = 0.8813
+epoch = 4 validation multi-class accuracy = 0.8869
+epoch = 5 validation multi-class accuracy = 0.8946
+epoch = 6 validation multi-class accuracy = 0.8941
+epoch = 7 validation multi-class accuracy = 0.8923
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 1.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 2.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 1.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 2.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+UnboundLocalError: local variable 'unlabeled_iter' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 927, in <module>
+    train_one_epoch(epoch, model, loss_tr, optimizer, train_loader, unlabeled_trainloader, device, scheduler=scheduler, schd_batch_update=False)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 715, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 1.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 2.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 1.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 989, in _next_data
+    return self._process_data(data)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1014, in _process_data
+    data.reraise()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_utils.py", line 395, in reraise
+    raise self.exc_type(msg)
+ValueError: Caught ValueError in DataLoader worker process 2.
+Original Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 712, in train_one_epoch
+    (inputs_u_s, inputs_u_w), _ = unlabeled_iter.next()
+UnboundLocalError: local variable 'unlabeled_iter' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 185, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 627, in __getitem__
+    img = self.transforms(img)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_bs7_mu3_labelsmooth_adamp_chgSwa.py", line 595, in __call__
+    weak = self.weak(x)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 61, in __call__
+    img = t(img)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 520, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 498, in get_params
+    i = random.randint(0, h - th)
+  File "/opt/conda/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/opt/conda/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-36, -36)
+

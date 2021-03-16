@@ -1,0 +1,49 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8696
+epoch = 2 validation multi-class accuracy = 0.8773
+epoch = 3 validation multi-class accuracy = 0.8822
+epoch = 4 validation multi-class accuracy = 0.8801
+epoch = 5 validation multi-class accuracy = 0.8796
+epoch = 6 validation multi-class accuracy = 0.8864
+epoch = 7 validation multi-class accuracy = 0.8820
+epoch = 8 validation multi-class accuracy = 0.8862
+epoch = 9 validation multi-class accuracy = 0.8883
+epoch = 10 validation multi-class accuracy = 0.8839
+epoch = 10 validation multi-class accuracy = 0.7857
+Training with 1 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8764
+epoch = 2 validation multi-class accuracy = 0.8806
+epoch = 3 validation multi-class accuracy = 0.8836
+epoch = 4 validation multi-class accuracy = 0.8855
+epoch = 5 validation multi-class accuracy = 0.8895
+epoch = 6 validation multi-class accuracy = 0.8848
+epoch = 7 validation multi-class accuracy = 0.8822
+epoch = 8 validation multi-class accuracy = 0.8803
+epoch = 9 validation multi-class accuracy = 0.8843
+epoch = 10 validation multi-class accuracy = 0.8801
+epoch = 10 validation multi-class accuracy = 0.7686
+Training with 2 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8736
+epoch = 2 validation multi-class accuracy = 0.8764
+epoch = 3 validation multi-class accuracy = 0.8771
+epoch = 4 validation multi-class accuracy = 0.8803
+epoch = 5 validation multi-class accuracy = 0.8871
+epoch = 6 validation multi-class accuracy = 0.8820
+epoch = 7 validation multi-class accuracy = 0.8794
+epoch = 8 validation multi-class accuracy = 0.8752
+epoch = 9 validation multi-class accuracy = 0.8775
+epoch = 10 validation multi-class accuracy = 0.8836
+epoch = 10 validation multi-class accuracy = 0.7857
+Training with 3 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8750
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr08_u12_bs6_mu3.py", line 922, in <module>
+    train_one_epoch(epoch, model, loss_tr, optimizer, train_loader, unlabeled_trainloader, device, scheduler=scheduler, schd_batch_update=False)
+  File "v2_hwkim_fixmatch_2019_fast_thr08_u12_bs6_mu3.py", line 716, in train_one_epoch
+    torch.cat((imgs, inputs_u_w, inputs_u_s)), 2*CFG['mu']+1).contiguous().to(device)
+KeyboardInterrupt

@@ -1,0 +1,53 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8750
+epoch = 2 validation multi-class accuracy = 0.8803
+epoch = 3 validation multi-class accuracy = 0.8890
+epoch = 4 validation multi-class accuracy = 0.8888
+epoch = 5 validation multi-class accuracy = 0.8867
+epoch = 6 validation multi-class accuracy = 0.8892
+epoch = 7 validation multi-class accuracy = 0.8904
+epoch = 8 validation multi-class accuracy = 0.8902
+epoch = 9 validation multi-class accuracy = 0.8906
+epoch = 10 validation multi-class accuracy = 0.8899
+epoch = 10 validation multi-class accuracy = 0.7280
+Training with 1 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8799
+epoch = 2 validation multi-class accuracy = 0.8867
+epoch = 3 validation multi-class accuracy = 0.8764
+epoch = 4 validation multi-class accuracy = 0.8801
+epoch = 5 validation multi-class accuracy = 0.8794
+epoch = 6 validation multi-class accuracy = 0.8857
+epoch = 7 validation multi-class accuracy = 0.8848
+epoch = 8 validation multi-class accuracy = 0.8869
+epoch = 9 validation multi-class accuracy = 0.8888
+epoch = 10 validation multi-class accuracy = 0.8906
+epoch = 10 validation multi-class accuracy = 0.6520
+Training with 2 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8731
+epoch = 2 validation multi-class accuracy = 0.8698
+epoch = 3 validation multi-class accuracy = 0.8750
+epoch = 4 validation multi-class accuracy = 0.8867
+epoch = 5 validation multi-class accuracy = 0.8862
+epoch = 6 validation multi-class accuracy = 0.8864
+epoch = 7 validation multi-class accuracy = 0.8869
+epoch = 8 validation multi-class accuracy = 0.8892
+epoch = 9 validation multi-class accuracy = 0.8867
+epoch = 10 validation multi-class accuracy = 0.8867
+epoch = 10 validation multi-class accuracy = 0.5740
+Training with 3 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8771
+epoch = 2 validation multi-class accuracy = 0.8881
+epoch = 3 validation multi-class accuracy = 0.8890
+epoch = 4 validation multi-class accuracy = 0.8848
+epoch = 5 validation multi-class accuracy = 0.8930
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr075_bs7_mu3_labelsmooth_adamp_chgSwa2.py", line 927, in <module>
+    train_one_epoch(epoch, model, loss_tr, optimizer, train_loader, unlabeled_trainloader, device, scheduler=scheduler, schd_batch_update=False)
+  File "v2_hwkim_fixmatch_2019_fast_thr075_bs7_mu3_labelsmooth_adamp_chgSwa2.py", line 718, in train_one_epoch
+    torch.cat((imgs, inputs_u_w, inputs_u_s)), 2*CFG['mu']+1).contiguous().to(device)
+KeyboardInterrupt

@@ -1,0 +1,45 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+non swa
+epoch = 1 validation multi-class accuracy = 0.8694
+non swa
+epoch = 2 validation multi-class accuracy = 0.8864
+non swa
+epoch = 3 validation multi-class accuracy = 0.8911
+non swa
+epoch = 4 validation multi-class accuracy = 0.8773
+non swa
+epoch = 5 validation multi-class accuracy = 0.8934
+swa
+epoch = 5 validation multi-class accuracy = 0.8130
+non swa
+epoch = 6 validation multi-class accuracy = 0.8927
+swa
+epoch = 6 validation multi-class accuracy = 0.8007
+non swa
+epoch = 7 validation multi-class accuracy = 0.8918
+swa
+epoch = 7 validation multi-class accuracy = 0.8056
+non swa
+epoch = 8 validation multi-class accuracy = 0.8902
+swa
+epoch = 8 validation multi-class accuracy = 0.8102
+non swa
+epoch = 9 validation multi-class accuracy = 0.8899
+swa
+epoch = 9 validation multi-class accuracy = 0.8077
+non swa
+epoch = 10 validation multi-class accuracy = 0.8888
+swa
+epoch = 10 validation multi-class accuracy = 0.8065
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_labelsmooth_adamp_SwaStart3+1_NewSwa_minlre-5_re.py", line 954, in <module>
+    torch.save(swa_model.state_dict(),'./v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_labelsmooth_adamp_SwaStart3+1_NewSwa_minlre-5_re/swa_{}_fold_{}_{}'.format(CFG['model_arch'], fold, epoch)) 
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 361, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 229, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 210, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_labelsmooth_adamp_SwaStart3+1_NewSwa_minlre-5_re/swa_tf_efficientnet_b4_ns_fold_0_9'

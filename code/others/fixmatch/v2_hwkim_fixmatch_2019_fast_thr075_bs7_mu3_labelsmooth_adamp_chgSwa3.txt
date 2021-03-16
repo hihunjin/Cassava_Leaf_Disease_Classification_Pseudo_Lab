@@ -1,0 +1,48 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8841
+epoch = 2 validation multi-class accuracy = 0.8843
+epoch = 3 validation multi-class accuracy = 0.8932
+epoch = 4 validation multi-class accuracy = 0.8785
+epoch = 5 validation multi-class accuracy = 0.8839
+epoch = 6 validation multi-class accuracy = 0.8752
+epoch = 7 validation multi-class accuracy = 0.8806
+epoch = 8 validation multi-class accuracy = 0.8860
+epoch = 9 validation multi-class accuracy = 0.8876
+epoch = 10 validation multi-class accuracy = 0.8876
+epoch = 10 validation multi-class accuracy = 0.6960
+Training with 1 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8659
+epoch = 2 validation multi-class accuracy = 0.8757
+epoch = 3 validation multi-class accuracy = 0.8906
+epoch = 4 validation multi-class accuracy = 0.8911
+epoch = 5 validation multi-class accuracy = 0.8860
+epoch = 6 validation multi-class accuracy = 0.8881
+epoch = 7 validation multi-class accuracy = 0.8841
+epoch = 8 validation multi-class accuracy = 0.8860
+epoch = 9 validation multi-class accuracy = 0.8888
+epoch = 10 validation multi-class accuracy = 0.8890
+epoch = 10 validation multi-class accuracy = 0.5691
+Training with 2 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8724
+epoch = 2 validation multi-class accuracy = 0.8752
+epoch = 3 validation multi-class accuracy = 0.8867
+epoch = 4 validation multi-class accuracy = 0.8839
+epoch = 5 validation multi-class accuracy = 0.8827
+epoch = 6 validation multi-class accuracy = 0.8829
+epoch = 7 validation multi-class accuracy = 0.8761
+epoch = 8 validation multi-class accuracy = 0.8787
+epoch = 9 validation multi-class accuracy = 0.8813
+epoch = 10 validation multi-class accuracy = 0.8810
+epoch = 10 validation multi-class accuracy = 0.6153
+Training with 3 started
+17115 4279
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr075_bs7_mu3_labelsmooth_adamp_chgSwa3.py", line 927, in <module>
+    train_one_epoch(epoch, model, loss_tr, optimizer, train_loader, unlabeled_trainloader, device, scheduler=scheduler, schd_batch_update=False)
+  File "v2_hwkim_fixmatch_2019_fast_thr075_bs7_mu3_labelsmooth_adamp_chgSwa3.py", line 718, in train_one_epoch
+    torch.cat((imgs, inputs_u_w, inputs_u_s)), 2*CFG['mu']+1).contiguous().to(device)
+KeyboardInterrupt

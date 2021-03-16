@@ -1,0 +1,138 @@
+(26285, 3)
+Training with 0 started
+21028 5257
+Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-regnet/regnety_040-f0d569f9.pth" to /root/.cache/torch/hub/checkpoints/regnety_040-f0d569f9.pth
+epoch = 1 validation multi-class accuracy = 0.8746
+epoch = 2 validation multi-class accuracy = 0.8705
+epoch = 3 validation multi-class accuracy = 0.8760
+epoch = 4 validation multi-class accuracy = 0.8769
+epoch = 5 validation multi-class accuracy = 0.8817
+epoch = 6 validation multi-class accuracy = 0.8906
+epoch = 7 validation multi-class accuracy = 0.8914
+epoch = 8 validation multi-class accuracy = 0.8925
+epoch = 9 validation multi-class accuracy = 0.8956
+epoch = 10 validation multi-class accuracy = 0.8950
+epoch = 11 validation multi-class accuracy = 0.8883
+epoch = 12 validation multi-class accuracy = 0.8786
+epoch = 13 validation multi-class accuracy = 0.8842
+epoch = 14 validation multi-class accuracy = 0.8853
+epoch = 15 validation multi-class accuracy = 0.8889
+epoch = 16 validation multi-class accuracy = 0.8902
+epoch = 17 validation multi-class accuracy = 0.8908
+epoch = 18 validation multi-class accuracy = 0.8944
+epoch = 19 validation multi-class accuracy = 0.8954
+epoch = 20 validation multi-class accuracy = 0.8956
+epoch = 21 validation multi-class accuracy = 0.8748
+epoch = 22 validation multi-class accuracy = 0.8783
+epoch = 23 validation multi-class accuracy = 0.8851
+epoch = 24 validation multi-class accuracy = 0.8836
+epoch = 24 validation multi-class accuracy = 0.8961
+Training with 1 started
+21028 5257
+epoch = 1 validation multi-class accuracy = 0.8809
+epoch = 2 validation multi-class accuracy = 0.8876
+epoch = 3 validation multi-class accuracy = 0.8754
+epoch = 4 validation multi-class accuracy = 0.8906
+epoch = 5 validation multi-class accuracy = 0.8923
+epoch = 6 validation multi-class accuracy = 0.8963
+epoch = 7 validation multi-class accuracy = 0.8937
+epoch = 8 validation multi-class accuracy = 0.8956
+epoch = 9 validation multi-class accuracy = 0.8965
+epoch = 10 validation multi-class accuracy = 0.8979
+epoch = 11 validation multi-class accuracy = 0.8927
+epoch = 12 validation multi-class accuracy = 0.8931
+epoch = 13 validation multi-class accuracy = 0.8912
+epoch = 14 validation multi-class accuracy = 0.8948
+epoch = 15 validation multi-class accuracy = 0.8996
+epoch = 16 validation multi-class accuracy = 0.9017
+epoch = 17 validation multi-class accuracy = 0.9009
+epoch = 18 validation multi-class accuracy = 0.9017
+epoch = 19 validation multi-class accuracy = 0.9030
+epoch = 20 validation multi-class accuracy = 0.9032
+epoch = 21 validation multi-class accuracy = 0.8866
+epoch = 22 validation multi-class accuracy = 0.8935
+epoch = 23 validation multi-class accuracy = 0.8950
+epoch = 24 validation multi-class accuracy = 0.8956
+epoch = 24 validation multi-class accuracy = 0.9056
+Training with 2 started
+21028 5257
+epoch = 1 validation multi-class accuracy = 0.8682
+epoch = 2 validation multi-class accuracy = 0.8718
+epoch = 3 validation multi-class accuracy = 0.8765
+epoch = 4 validation multi-class accuracy = 0.8843
+epoch = 5 validation multi-class accuracy = 0.8897
+epoch = 6 validation multi-class accuracy = 0.8927
+epoch = 7 validation multi-class accuracy = 0.8912
+epoch = 8 validation multi-class accuracy = 0.8908
+epoch = 9 validation multi-class accuracy = 0.8967
+epoch = 10 validation multi-class accuracy = 0.8965
+epoch = 11 validation multi-class accuracy = 0.8914
+epoch = 12 validation multi-class accuracy = 0.8794
+epoch = 13 validation multi-class accuracy = 0.8878
+epoch = 14 validation multi-class accuracy = 0.8842
+epoch = 15 validation multi-class accuracy = 0.8931
+epoch = 16 validation multi-class accuracy = 0.8939
+epoch = 17 validation multi-class accuracy = 0.8908
+epoch = 18 validation multi-class accuracy = 0.8975
+epoch = 19 validation multi-class accuracy = 0.8973
+epoch = 20 validation multi-class accuracy = 0.8982
+epoch = 21 validation multi-class accuracy = 0.8836
+epoch = 22 validation multi-class accuracy = 0.8859
+epoch = 23 validation multi-class accuracy = 0.8891
+epoch = 24 validation multi-class accuracy = 0.8765
+epoch = 24 validation multi-class accuracy = 0.8992
+Training with 3 started
+21028 5257
+epoch = 1 validation multi-class accuracy = 0.8705
+epoch = 2 validation multi-class accuracy = 0.8722
+epoch = 3 validation multi-class accuracy = 0.8817
+epoch = 4 validation multi-class accuracy = 0.8849
+epoch = 5 validation multi-class accuracy = 0.8880
+epoch = 6 validation multi-class accuracy = 0.8925
+epoch = 7 validation multi-class accuracy = 0.8956
+epoch = 8 validation multi-class accuracy = 0.8931
+epoch = 9 validation multi-class accuracy = 0.8931
+epoch = 10 validation multi-class accuracy = 0.8973
+epoch = 11 validation multi-class accuracy = 0.8925
+epoch = 12 validation multi-class accuracy = 0.8923
+epoch = 13 validation multi-class accuracy = 0.8777
+epoch = 14 validation multi-class accuracy = 0.8920
+epoch = 15 validation multi-class accuracy = 0.8982
+epoch = 16 validation multi-class accuracy = 0.9001
+epoch = 17 validation multi-class accuracy = 0.8967
+epoch = 18 validation multi-class accuracy = 0.9017
+epoch = 19 validation multi-class accuracy = 0.8980
+epoch = 20 validation multi-class accuracy = 0.8961
+epoch = 21 validation multi-class accuracy = 0.8855
+epoch = 22 validation multi-class accuracy = 0.8809
+epoch = 23 validation multi-class accuracy = 0.8897
+epoch = 24 validation multi-class accuracy = 0.8897
+epoch = 24 validation multi-class accuracy = 0.9017
+Training with 4 started
+21028 5257
+epoch = 1 validation multi-class accuracy = 0.8651
+epoch = 2 validation multi-class accuracy = 0.8752
+epoch = 3 validation multi-class accuracy = 0.8792
+epoch = 4 validation multi-class accuracy = 0.8868
+epoch = 5 validation multi-class accuracy = 0.8798
+epoch = 6 validation multi-class accuracy = 0.8866
+epoch = 7 validation multi-class accuracy = 0.8899
+epoch = 8 validation multi-class accuracy = 0.8948
+epoch = 9 validation multi-class accuracy = 0.8963
+epoch = 10 validation multi-class accuracy = 0.8967
+epoch = 11 validation multi-class accuracy = 0.8592
+epoch = 12 validation multi-class accuracy = 0.8868
+epoch = 13 validation multi-class accuracy = 0.8912
+epoch = 14 validation multi-class accuracy = 0.8661
+epoch = 15 validation multi-class accuracy = 0.8902
+epoch = 16 validation multi-class accuracy = 0.8950
+epoch = 17 validation multi-class accuracy = 0.8906
+epoch = 18 validation multi-class accuracy = 0.8940
+epoch = 19 validation multi-class accuracy = 0.8954
+epoch = 20 validation multi-class accuracy = 0.8946
+epoch = 21 validation multi-class accuracy = 0.8802
+epoch = 22 validation multi-class accuracy = 0.8883
+epoch = 23 validation multi-class accuracy = 0.8895
+epoch = 24 validation multi-class accuracy = 0.8819
+epoch = 24 validation multi-class accuracy = 0.9007
+0.9006657789613848

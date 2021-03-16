@@ -1,0 +1,167 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+5e-05
+non swa
+epoch = 1 validation multi-class accuracy = 0.8717
+5e-05
+non swa
+epoch = 2 validation multi-class accuracy = 0.8857
+5e-05
+non swa
+epoch = 3 validation multi-class accuracy = 0.8841
+5e-05
+non swa
+epoch = 4 validation multi-class accuracy = 0.8883
+swa
+epoch = 4 validation multi-class accuracy = 0.8883
+5e-05
+non swa
+epoch = 5 validation multi-class accuracy = 0.8883
+swa
+epoch = 5 validation multi-class accuracy = 0.8827
+5e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8895
+swa
+epoch = 6 validation multi-class accuracy = 0.8890
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8836
+swa
+epoch = 7 validation multi-class accuracy = 0.8902
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.7626
+Training with 1 started
+17115 4279
+5e-05
+non swa
+epoch = 1 validation multi-class accuracy = 0.8605
+5e-05
+non swa
+epoch = 2 validation multi-class accuracy = 0.8799
+5e-05
+non swa
+epoch = 3 validation multi-class accuracy = 0.8846
+5e-05
+non swa
+epoch = 4 validation multi-class accuracy = 0.8841
+swa
+epoch = 4 validation multi-class accuracy = 0.8841
+5e-05
+non swa
+epoch = 5 validation multi-class accuracy = 0.8867
+swa
+epoch = 5 validation multi-class accuracy = 0.8853
+5e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8881
+swa
+epoch = 6 validation multi-class accuracy = 0.8881
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8843
+swa
+epoch = 7 validation multi-class accuracy = 0.8881
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.7684
+Training with 2 started
+17115 4279
+5e-05
+non swa
+epoch = 1 validation multi-class accuracy = 0.8752
+5e-05
+non swa
+epoch = 2 validation multi-class accuracy = 0.8782
+5e-05
+non swa
+epoch = 3 validation multi-class accuracy = 0.8817
+5e-05
+non swa
+epoch = 4 validation multi-class accuracy = 0.8841
+swa
+epoch = 4 validation multi-class accuracy = 0.8841
+5e-05
+non swa
+epoch = 5 validation multi-class accuracy = 0.8822
+swa
+epoch = 5 validation multi-class accuracy = 0.8782
+5e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8860
+swa
+epoch = 6 validation multi-class accuracy = 0.8857
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8822
+swa
+epoch = 7 validation multi-class accuracy = 0.8862
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.7492
+Training with 3 started
+17115 4279
+5e-05
+non swa
+epoch = 1 validation multi-class accuracy = 0.8768
+5e-05
+non swa
+epoch = 2 validation multi-class accuracy = 0.8888
+5e-05
+non swa
+epoch = 3 validation multi-class accuracy = 0.8972
+5e-05
+non swa
+epoch = 4 validation multi-class accuracy = 0.8918
+swa
+epoch = 4 validation multi-class accuracy = 0.8918
+5e-05
+non swa
+epoch = 5 validation multi-class accuracy = 0.8960
+swa
+epoch = 5 validation multi-class accuracy = 0.8946
+5e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8946
+swa
+epoch = 6 validation multi-class accuracy = 0.8986
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.9002
+swa
+epoch = 7 validation multi-class accuracy = 0.9004
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.7735
+Training with 4 started
+17116 4278
+5e-05
+non swa
+epoch = 1 validation multi-class accuracy = 0.8784
+5e-05
+non swa
+epoch = 2 validation multi-class accuracy = 0.8876
+5e-05
+non swa
+epoch = 3 validation multi-class accuracy = 0.8941
+5e-05
+non swa
+epoch = 4 validation multi-class accuracy = 0.8934
+swa
+epoch = 4 validation multi-class accuracy = 0.8934
+5e-05
+non swa
+epoch = 5 validation multi-class accuracy = 0.8901
+swa
+epoch = 5 validation multi-class accuracy = 0.8866
+5e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8873
+swa
+epoch = 6 validation multi-class accuracy = 0.8901
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8908
+swa
+epoch = 7 validation multi-class accuracy = 0.8915
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.7796
+0.7666635505281855

@@ -1,0 +1,30 @@
+['cassava-leaf-disease-classification']
+Training with 0 started
+17115 4279
+epoch = 1 validation multi-class accuracy = 0.8364
+Traceback (most recent call last):
+  File "v2_concat_av_ma.py", line 631, in <module>
+    valid_one_epoch(epoch, model, loss_fn, val_loader, device, scheduler=None, schd_loss_update=False)
+  File "v2_concat_av_ma.py", line 478, in valid_one_epoch
+    for step, (imgs, image_labels) in enumerate(val_loader):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "v2_concat_av_ma.py", line 192, in __getitem__
+    img = self.transforms(image=img)['image']
+  File "/opt/conda/lib/python3.7/site-packages/albumentations/core/composition.py", line 182, in __call__
+    data = t(force_apply=force_apply, **data)
+  File "/opt/conda/lib/python3.7/site-packages/albumentations/core/transforms_interface.py", line 89, in __call__
+    return self.apply_with_params(params, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/albumentations/core/transforms_interface.py", line 102, in apply_with_params
+    res[key] = target_function(arg, **dict(params, **target_dependencies))
+  File "/opt/conda/lib/python3.7/site-packages/albumentations/augmentations/transforms.py", line 1496, in apply
+    return F.normalize(image, self.mean, self.std, self.max_pixel_value)
+  File "/opt/conda/lib/python3.7/site-packages/albumentations/augmentations/functional.py", line 140, in normalize
+    img = img.astype(np.float32)
+KeyboardInterrupt

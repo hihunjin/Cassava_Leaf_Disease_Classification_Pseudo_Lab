@@ -1,0 +1,167 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+0.0005
+non swa
+epoch = 1 validation multi-class accuracy = 0.8647
+0.00046985571585149877
+non swa
+epoch = 2 validation multi-class accuracy = 0.8778
+0.00038750000000000004
+non swa
+epoch = 3 validation multi-class accuracy = 0.8775
+0.0003380742693252299
+non swa
+epoch = 4 validation multi-class accuracy = 0.8820
+swa
+epoch = 4 validation multi-class accuracy = 0.8820
+0.00021875000000000003
+non swa
+epoch = 5 validation multi-class accuracy = 0.8801
+swa
+epoch = 5 validation multi-class accuracy = 0.8565
+9.942573067477012e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8937
+swa
+epoch = 6 validation multi-class accuracy = 0.8560
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8941
+swa
+epoch = 7 validation multi-class accuracy = 0.8567
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.8549
+Training with 1 started
+17115 4279
+0.0005
+non swa
+epoch = 1 validation multi-class accuracy = 0.8675
+0.00046985571585149877
+non swa
+epoch = 2 validation multi-class accuracy = 0.8708
+0.00038750000000000004
+non swa
+epoch = 3 validation multi-class accuracy = 0.8780
+0.0003380742693252299
+non swa
+epoch = 4 validation multi-class accuracy = 0.8855
+swa
+epoch = 4 validation multi-class accuracy = 0.8855
+0.00021875000000000003
+non swa
+epoch = 5 validation multi-class accuracy = 0.8897
+swa
+epoch = 5 validation multi-class accuracy = 0.8518
+9.942573067477012e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8939
+swa
+epoch = 6 validation multi-class accuracy = 0.8556
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8944
+swa
+epoch = 7 validation multi-class accuracy = 0.8565
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.8535
+Training with 2 started
+17115 4279
+0.0005
+non swa
+epoch = 1 validation multi-class accuracy = 0.8504
+0.00046985571585149877
+non swa
+epoch = 2 validation multi-class accuracy = 0.8584
+0.00038750000000000004
+non swa
+epoch = 3 validation multi-class accuracy = 0.8722
+0.0003380742693252299
+non swa
+epoch = 4 validation multi-class accuracy = 0.8817
+swa
+epoch = 4 validation multi-class accuracy = 0.8817
+0.00021875000000000003
+non swa
+epoch = 5 validation multi-class accuracy = 0.8841
+swa
+epoch = 5 validation multi-class accuracy = 0.8645
+9.942573067477012e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8883
+swa
+epoch = 6 validation multi-class accuracy = 0.8663
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8871
+swa
+epoch = 7 validation multi-class accuracy = 0.8654
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.8654
+Training with 3 started
+17115 4279
+0.0005
+non swa
+epoch = 1 validation multi-class accuracy = 0.8717
+0.00046985571585149877
+non swa
+epoch = 2 validation multi-class accuracy = 0.8841
+0.00038750000000000004
+non swa
+epoch = 3 validation multi-class accuracy = 0.8904
+0.0003380742693252299
+non swa
+epoch = 4 validation multi-class accuracy = 0.8920
+swa
+epoch = 4 validation multi-class accuracy = 0.8920
+0.00021875000000000003
+non swa
+epoch = 5 validation multi-class accuracy = 0.8962
+swa
+epoch = 5 validation multi-class accuracy = 0.8703
+9.942573067477012e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.9009
+swa
+epoch = 6 validation multi-class accuracy = 0.8705
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8990
+swa
+epoch = 7 validation multi-class accuracy = 0.8731
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.8724
+Training with 4 started
+17116 4278
+0.0005
+non swa
+epoch = 1 validation multi-class accuracy = 0.8693
+0.00046985571585149877
+non swa
+epoch = 2 validation multi-class accuracy = 0.8815
+0.00038750000000000004
+non swa
+epoch = 3 validation multi-class accuracy = 0.8834
+0.0003380742693252299
+non swa
+epoch = 4 validation multi-class accuracy = 0.8897
+swa
+epoch = 4 validation multi-class accuracy = 0.8897
+0.00021875000000000003
+non swa
+epoch = 5 validation multi-class accuracy = 0.8953
+swa
+epoch = 5 validation multi-class accuracy = 0.8266
+9.942573067477012e-05
+non swa
+epoch = 6 validation multi-class accuracy = 0.8983
+swa
+epoch = 6 validation multi-class accuracy = 0.8072
+5e-05
+non swa
+epoch = 7 validation multi-class accuracy = 0.8995
+swa
+epoch = 7 validation multi-class accuracy = 0.7744
+swa_BN
+epoch = 7 validation multi-class accuracy = 0.7763
+0.8444891090960083

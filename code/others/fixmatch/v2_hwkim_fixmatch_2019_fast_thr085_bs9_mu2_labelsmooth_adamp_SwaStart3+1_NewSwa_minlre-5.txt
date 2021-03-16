@@ -1,0 +1,112 @@
+['cassava-leaf-disease-classification', 'cassava-disease']
+Training with 0 started
+17115 4279
+non swa
+epoch = 1 validation multi-class accuracy = 0.8759
+swa
+epoch = 1 validation multi-class accuracy = 0.1355
+non swa
+epoch = 2 validation multi-class accuracy = 0.8864
+swa
+epoch = 2 validation multi-class accuracy = 0.1360
+non swa
+epoch = 3 validation multi-class accuracy = 0.8906
+swa
+epoch = 3 validation multi-class accuracy = 0.1346
+non swa
+epoch = 4 validation multi-class accuracy = 0.8885
+swa
+epoch = 4 validation multi-class accuracy = 0.1334
+non swa
+epoch = 5 validation multi-class accuracy = 0.8913
+swa
+epoch = 5 validation multi-class accuracy = 0.8219
+non swa
+epoch = 6 validation multi-class accuracy = 0.8969
+swa
+epoch = 6 validation multi-class accuracy = 0.8222
+non swa
+epoch = 7 validation multi-class accuracy = 0.8965
+swa
+epoch = 7 validation multi-class accuracy = 0.8168
+non swa
+epoch = 8 validation multi-class accuracy = 0.8944
+swa
+epoch = 8 validation multi-class accuracy = 0.8067
+non swa
+epoch = 9 validation multi-class accuracy = 0.8925
+swa
+epoch = 9 validation multi-class accuracy = 0.8002
+non swa
+epoch = 10 validation multi-class accuracy = 0.8939
+swa
+epoch = 10 validation multi-class accuracy = 0.7950
+Training with 1 started
+17115 4279
+non swa
+epoch = 1 validation multi-class accuracy = 0.8787
+swa
+epoch = 1 validation multi-class accuracy = 0.1874
+non swa
+epoch = 2 validation multi-class accuracy = 0.8829
+swa
+epoch = 2 validation multi-class accuracy = 0.1879
+non swa
+epoch = 3 validation multi-class accuracy = 0.8888
+swa
+epoch = 3 validation multi-class accuracy = 0.1879
+non swa
+epoch = 4 validation multi-class accuracy = 0.8757
+swa
+epoch = 4 validation multi-class accuracy = 0.1860
+non swa
+epoch = 5 validation multi-class accuracy = 0.8897
+swa
+epoch = 5 validation multi-class accuracy = 0.7357
+non swa
+epoch = 6 validation multi-class accuracy = 0.8932
+swa
+epoch = 6 validation multi-class accuracy = 0.7322
+non swa
+epoch = 7 validation multi-class accuracy = 0.8909
+swa
+epoch = 7 validation multi-class accuracy = 0.7296
+non swa
+epoch = 8 validation multi-class accuracy = 0.8904
+swa
+epoch = 8 validation multi-class accuracy = 0.7289
+non swa
+Traceback (most recent call last):
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_labelsmooth_adamp_SwaStart3+1_NewSwa_minlre-5.py", line 943, in <module>
+    valid_one_epoch(epoch, model, loss_fn, val_loader, device, scheduler=None, schd_loss_update=False)
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_labelsmooth_adamp_SwaStart3+1_NewSwa_minlre-5.py", line 784, in valid_one_epoch
+    image_preds = model(imgs)   #output = model(input)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "v2_hwkim_fixmatch_2019_fast_thr085_bs9_mu2_labelsmooth_adamp_SwaStart3+1_NewSwa_minlre-5.py", line 385, in forward
+    x = self.model(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet.py", line 391, in forward
+    x = self.forward_features(x)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet.py", line 384, in forward_features
+    x = self.blocks(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet_blocks.py", line 268, in forward
+    x = self.se(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet_blocks.py", line 118, in forward
+    x_se = self.act1(x_se)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 758, in __getattr__
+    def __getattr__(self, name: str) -> Union[Tensor, 'Module']:
+KeyboardInterrupt
