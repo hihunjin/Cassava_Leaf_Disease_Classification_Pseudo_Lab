@@ -1,6 +1,8 @@
 # Cassava_Leaf_Disease_Classification_Pseudo_Lab
 Cassava Leaf Disease Classification
 
+Team name : Master breaker
+
 # Setup
 
 * See [Docker hub](https://hub.docker.com/repository/docker/hihunjin/cassava-leaf-disease-classification-master-breaker) README.md
