@@ -7,6 +7,10 @@ Team name : Master breaker
 
 * See [Docker hub](https://hub.docker.com/repository/docker/hihunjin/cassava-leaf-disease-classification-master-breaker) README.md
 
+# Codes
+
+* See [README.md](https://github.com/hihunjin/Cassava_Leaf_Disease_Classification_Pseudo_Lab/tree/main/code/avengers).
+
 # Useful links
 
 [Kaggle - Cassava Leaf Disease Classification](https://www.kaggle.com/c/cassava-leaf-disease-classification/)
