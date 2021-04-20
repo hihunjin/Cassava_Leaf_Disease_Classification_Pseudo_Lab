@@ -1,4 +1,7 @@
-# Cassava_Leaf_Disease_Classification_Pseudo_Lab
+# Cassava Leaf Disease Classification. Jupyter Notebooks
+
+### Organization : [Pseudo Lab](https://pseudo-lab.com/c42db6652c1b45c3ba4bfe157c70cf09)
+
 Cassava Leaf Disease Classification
 
 Team name : Master breaker
